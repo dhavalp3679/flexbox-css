@@ -18,6 +18,13 @@ body {
 
 /* main heading text */
 
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 h1 {
     display: inline;
 }
@@ -31,6 +38,7 @@ h1 {
     padding: 0 1% 0% 1%;
     background-color: #f0f8ff;
     border-radius: 0.4rem; 
+    text-align: center;
 }
 
 
@@ -43,15 +51,21 @@ h1 {
 
     font-size: 140%;
     letter-spacing: 2px;
-    text-decoration: none;
+
+  
 }
 
 #navbar ul {
     
+
 }
 
-#navbar ul li {
-    
+#navbar > li {
+    display: flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: inherit;
 }
 
 
@@ -93,12 +107,16 @@ footer {
 }
      
 footer li {
+    display: grid;
+    justify-content: flex-end;
     
 }
 
 footer i {
+   
     font-size: 180%;
     color: #495e35;
 
     background-color: #f0f8ff;
+    
 }
