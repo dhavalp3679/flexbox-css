@@ -104,8 +104,8 @@ h1 {
     line-height: 30px;
     height: 200px;
     bottom: 150px;
-    right: 110px;
-    left: 250px;
+    right: 30%;
+    left: 20%;
     position: absolute;
 }
 
