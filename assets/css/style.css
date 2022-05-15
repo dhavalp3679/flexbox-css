@@ -18,72 +18,54 @@ body {
 
 /* main heading text */
 
-.header {
-    min-height: 100vh;
-    width: 100%;
-    position: relative;
+h1 {
+    display: inline;
 }
 
-h1 {
-    font-size: 210%;
+#logo {
     font-family: Permanent Marker, Impact, sans-serif;
     color: #495e35;
-    background-color: #f0f8ff;
+    font-size: 210%;
     font-weight: 230%;
-    border: #9ed6db solid 5px;
-    padding: 1px 7px 3px 5px;
-    margin: 10px 102px 10px 10px;
-    border-radius: 5px;
-    display: inline;
-    float: left;
+    border: #9ed6db solid 0.35rem;
+    padding: 0 1% 0% 1%;
+    background-color: #f0f8ff;
+    border-radius: 0.4rem; 
 }
+
+
+
+
 
 /* navigation bar and links */
 
 #navbar {
-    display: flex;
-    padding: 1% 3%;
-    justify-content: space-between;
-    align-items: flex-end;
+
     font-size: 140%;
     letter-spacing: 2px;
     text-decoration: none;
-    padding-right: 10%;
-    margin-right: 2%;
-    margin-left: 10%;
 }
 
 #navbar ul {
-    float: right;
-    padding: 0%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+    
 }
 
 #navbar ul li {
-    display: inline-block;
-    position: relative;
+    
 }
 
 
 #navbar > li {
-    flex: 1;
-    text-align: right;
+    
     font-size: 100%;
     font-family: Permanent Marker, Impact, sans-serif;
     color: #495e35;
-    float: left;
-    list-style-type: none;
-    margin: 3% 2% 3%;
-    padding-right: 3%;
-    padding-left: 3%
+    
+    
 }
 
 #navbar a {
     text-decoration: none;
-    color: inherit;
 }
 
 #navbar a:hover {
@@ -100,35 +82,23 @@ h1 {
 
 #center-text {
     font-size: 140%;
-    letter-spacing: 2px;
-    line-height: 30px;
-    height: 200px;
-    bottom: 150px;
-    right: 30%;
-    left: 20%;
-    position: absolute;
+    
 }
 
 /* footer */
 
 footer {
-    position: absolute;
-    text-align: center;
-    bottom: 2px;
-    width: 100%;
     /* Height of the footer*/ 
     height: 50px;
 }
      
 footer li {
-    display: inline;
-    text-align: center;
+    
 }
 
 footer i {
     font-size: 180%;
     color: #495e35;
-    margin: 2%;
-    text-align: center;
+
     background-color: #f0f8ff;
 }
