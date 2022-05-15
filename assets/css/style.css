@@ -49,6 +49,17 @@ h1 {
     letter-spacing: 2px;
     text-decoration: none;
     padding-right: 10%;
+    margin-right: 2%;
+    margin-left: 10%;
+}
+
+#navbar ul {
+    float: right;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 #navbar ul li {
@@ -56,24 +67,18 @@ h1 {
     position: relative;
 }
 
-#navbar ul {
-    float: right;
-}
 
 #navbar > li {
     flex: 1;
     text-align: right;
-    
     font-size: 100%;
     font-family: Permanent Marker, Impact, sans-serif;
     color: #495e35;
     float: left;
     list-style-type: none;
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-top: 3%;
+    margin: 3% 2% 3%;
     padding-right: 3%;
-    padding-left: 3%;
+    padding-left: 3%
 }
 
 #navbar a {
