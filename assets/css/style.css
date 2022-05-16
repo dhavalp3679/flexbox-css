@@ -1,18 +1,41 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-}
-
-body{
+body {
     display:flex;
     flex-direction:column;
     min-height:100vh;
+    flex-wrap: wrap;
+    /* if background image is unavailable*/
+   
+    /* other main settings for body */
+    background: url('../images/hero-image.jpg') no-repeat center fixed;
+    background-size: cover;
   }
 
 .site-header_wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+h1, h2 { 
+    font-family: Permanent Marker, Impact, sans-serif;
+    color: #495e35;
+    background-color: #f0f8ff;
+}
+
+h1 {
+   
+    font-family: Permanent Marker, Impact, sans-serif;
+    
+    border: #9ed6db solid;
+    
+}
+
+h2 {
+     
+    letter-spacing: 2px;
 }
 
 ul li {
@@ -23,13 +46,20 @@ h3 {
     display: grid;
     flex: 1;
     margin-left: 20%;
-    align-items: center;    
+    align-items: center;
+    color: #4d4c53;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 footer {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a {
+    color: #495e35;
+    text-decoration: none;
     
 }
