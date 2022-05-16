@@ -20,32 +20,33 @@ body {
 }
 
 h1, h2 { 
-    font-family: Permanent Marker, Impact, sans-serif;
-    color: #495e35;
-    background-color: #f0f8ff;
+    font-family: Permanent Marker, Impact, sans-serif;    
 }
 
 h1 {
-   
-    font-family: Permanent Marker, Impact, sans-serif;
-    
-    border: #9ed6db solid;
-    
+    color: #495e35;
 }
 
+
+
 h2 {
-     
     letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.logo > i { 
+    color: #4d4c53
 }
 
 ul li {
     display: inline;
 }
 
+
 h3 {
     display: grid;
     flex: 1;
-    margin-left: 20%;
+    margin-left: 30%;
     align-items: center;
     color: #4d4c53;
     font-family: 'Courier New', Courier, monospace;
@@ -56,10 +57,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-size: 150%;
 }
 
-a {
+ a {
     color: #495e35;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
+
