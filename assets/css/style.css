@@ -1,122 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+
 }
 
-body {
-    /* if background image is unavailable*/
-    background-color: #f2e6e6;
-    /* other main settings for body */
-    color: #4d4c53;
-    font-family: 'Courier New', Courier, monospace;
-    background: url('../images/hero-image.jpg') no-repeat center fixed;
-    background-size: cover;
-}
 
-/* main heading text */
-
-.header {
+.site-header_wrapper {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-h1 {
+ul li {
     display: inline;
 }
 
-#logo {
-    font-family: Permanent Marker, Impact, sans-serif;
-    color: #495e35;
-    font-size: 210%;
-    font-weight: 230%;
-    border: #9ed6db solid 0.35rem;
-    padding: 0 1% 0% 1%;
-    background-color: #f0f8ff;
-    border-radius: 0.4rem; 
-    text-align: center;
-}
-
-
-
-
-
-/* navigation bar and links */
-
-#navbar {
-
-    font-size: 140%;
-    letter-spacing: 2px;
-
-  
-}
-
-#navbar ul {
-    
-
-}
-
-#navbar > li {
-    display: flex;
-    display: inline-flex;
-    justify-content: space-around;
-    list-style-type: none;
-    text-decoration: inherit;
-}
-
-
-#navbar > li {
-    
-    font-size: 100%;
-    font-family: Permanent Marker, Impact, sans-serif;
-    color: #495e35;
-    
-    
-}
-
-#navbar a {
-    text-decoration: none;
-}
-
-#navbar a:hover {
-    border: 3px solid #9ed6db;
-    border-radius: 5px;
-    padding: 1px 2px 2px 4px;
-    color: #583765;
-}
-
-.active {
-    border-bottom: 3px dotted #9ed6db;
-    color: #4e6c3e;
-}
-
-#center-text {
-    font-size: 140%;
-    
-}
-
-/* footer */
-
 footer {
-    /* Height of the footer*/ 
-    height: 50px;
-}
-     
-footer li {
-    display: grid;
-    justify-content: flex-end;
-    
-}
-
-footer i {
-   
-    font-size: 180%;
-    color: #495e35;
-
-    background-color: #f0f8ff;
-    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
