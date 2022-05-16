@@ -38,6 +38,8 @@ h2 {
     color: #4d4c53
 }
 
+
+
 ul li {
     display: inline;
 }
@@ -61,7 +63,14 @@ footer {
 }
 
  a {
-    color: #495e35;
     text-decoration: none;   
 }
 
+.nav-links {
+    color: #604664;
+}
+
+footer a {
+    color: #495e35;
+    background-color: #ebf2f2;
+}
