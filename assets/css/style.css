@@ -24,7 +24,8 @@ h1, h2 {
 }
 
 h1 {
-    color: #495e35;
+    color: #4d6b53;
+    font-weight: 400;
 }
 
 
@@ -35,7 +36,7 @@ h2 {
 }
 
 .logo > i { 
-    color: #4d4c53
+    color: slategray;
 }
 
 
@@ -50,7 +51,8 @@ h3 {
     flex: 1;
     margin-left: 30%;
     align-items: center;
-    color: #654321;
+    color: darkslategray;
+    background-color:rgba(255,251,255,.5);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -68,9 +70,16 @@ footer {
 
 .nav-links {
     color: #604664;
+    font-size: 90%;
 }
 
 footer a {
-    color: #495e35;
-    background-color: #ebf2f2;
+    color: darkslategray;
+    background-color: rgba(255,251,255,.5);
+}
+
+span { 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: #6699CC;
 }
