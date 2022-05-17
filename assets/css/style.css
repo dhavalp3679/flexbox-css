@@ -25,7 +25,8 @@ h1, h2 {
 
 h1 {
     color: darkolivegreen;
-    font-weight: 400;
+    font-size: 170%;
+    font-weight: lighter;
 }
 
 
@@ -33,6 +34,7 @@ h1 {
 h2 {
     letter-spacing: 2px;
     font-weight: lighter;
+    font-size: 120%;
 }
 
 .logo > i { 
@@ -51,9 +53,10 @@ h3 {
     flex: 1;
     margin-left: 30%;
     align-items: center;
-    color: darkslategray;
+    color: #2b2d2f;
     background-color:rgba(255,251,255,.5);
     font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
 }
 
 
@@ -74,7 +77,7 @@ footer {
 }
 
 footer a {
-    color: #5f5f5f;
+    color: darkolivegreen;
     background-color: rgba(255,251,255,.5);
 }
 
