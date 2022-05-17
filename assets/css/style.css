@@ -75,13 +75,14 @@ footer {
 
 .nav-links {
     color: #604664;
-    font-size: 90%;
+    font-size: 100%;
     background-color: rgba(255,251,255,.1);
 }
 
 footer a {
     color: darkolivegreen;
     background-color: rgba(255,251,255,.5);
+    font-size: 120%;
 }
 
 span { 
