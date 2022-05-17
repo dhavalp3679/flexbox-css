@@ -27,6 +27,8 @@ h1 {
     color: darkolivegreen;
     font-size: 170%;
     font-weight: lighter;
+    background-color: rgba(255,251,255,.2);
+    
 }
 
 
@@ -74,6 +76,7 @@ footer {
 .nav-links {
     color: #604664;
     font-size: 90%;
+    background-color: rgba(255,251,255,.1);
 }
 
 footer a {
